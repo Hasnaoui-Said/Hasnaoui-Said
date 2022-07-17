@@ -1,8 +1,8 @@
 ### Hello World I'm Said! 👋
-### Here Is What I'm working 0n 👋
+### Here Is What I'm Working 0n 👋
 
 
-Here are some ideas to get you started:
+Here Are Some Ideas To Get You Started:
 
 - 🔭 I’m currently working on ... Freelance
 - 🌱 I’m currently learning ... Angular/SpringBoot
