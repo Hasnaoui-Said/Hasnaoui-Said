@@ -6,8 +6,54 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script>
+    let lang = localStorage.getItem('language');
+    let html = document.getElementsByTagName('html')[0];
+    if (lang.trim().toLocaleLowerCase() === 'ar') {
+      html.setAttribute('dir', 'rtl');
+      html.style.direction = 'rtl';
+    } else {
+      html.setAttribute('dir', 'ltr');
+      html.style.direction = 'ltr';
+      html.style.textAlign = 'left';
+    }
+  </script>
+  <style>
+    .body-text-align-left {
+      text-align: left !important;
+    }
+    .body-text-align-right {
+      text-align: right !important;
+    }
+  </style>
 </head>
-<body>
+<body class="mat-typography">
   <app-root></app-root>
+
+
+
+  <script>
+    window.onload = function () {
+      let lang =
+        localStorage.getItem('language') === null
+          ? 'fr'
+          : localStorage.getItem('language');
+      let mode =
+        localStorage.getItem('mode') === null
+          ? 'dark'
+          : localStorage.getItem('mode');
+      localStorage.setItem('mode', mode);
+      let body = document.getElementsByTagName('body')[0];
+      if (lang.trim().toLocaleLowerCase() === 'ar') {
+        body.classList.add('body-text-align-right');
+      } else {
+        body.classList.add(['body-text-align-left']);
+      }
+    };
+  </script>
 </body>
 </html>
