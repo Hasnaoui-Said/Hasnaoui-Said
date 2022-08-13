@@ -1,0 +1,29 @@
+<div #heroes class="heroes m-0 p-0"
+>
+
+  <div fxLayout fxLayoutAlign="start center" class="p-5 child" #child>
+    <div #title class="title text-white text-center"
+         fxLayout="column" fxLayoutGap="30px"
+         fxFlex.gt-sm="50"
+         fxLayoutAlign="center center">
+      <div class="text-capitalize">{{ 'HEROES.TITLE.hello' | translate }}</div>
+      <h1 class="">{{ 'INFORMATION.fullName' | translate }}</h1>
+      <strong class="">{{ 'INFORMATION.title' | translate }}</strong>
+      <button mat-flat-button color="primary" class="text-start">
+        <mat-icon>print</mat-icon>
+        <span class="ms-2">{{ 'HEROES.TITLE.BTN-PRINT' | translate }}</span>
+      </button>
+          <!--<p class="text-center">
+            Mon intérêt principal est le développement Web, à la fois front-end et back-end. <br>
+            L'industrie évolue rapidement et progresse constamment. <br>
+            C'est celui qui nécessite une formation constante tout au long de votre carrière. <br>
+            C'est excitant pour moi car je sais qu'il y aura toujours de nouvelles choses à apprendre et de nouveaux défis à relever.
+          </p>-->
+    </div>
+  </div>
+
+</div>
+<div class="slide"></div>
+<div class="image">
+  <img src="./assets/images/index.jpeg"/>
+</div>

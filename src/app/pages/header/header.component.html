@@ -9,7 +9,7 @@
       <a href="/home">log</a>
     </div>
   </div>
-  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.sm>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.lt-md>
     <ul fxLayoutAlign="space-around center" fxLayoutGap="33px" class="navigation-items">
 
       <div ngbDropdown class="d-inline-block">
@@ -40,22 +40,22 @@
         </div>
       </div>
       <li>
-        <a routerLink="/home" routerLinkActive="active">Homesss</a>
+        <a routerLink="/home" routerLinkActive="active">{{ 'NAV-TITLE.HOME.HOME' | translate }}</a>
       </li>
       <li>
-        <a routerLink="#about" routerLinkActive="active">About</a>
+        <a routerLink="#about" routerLinkActive="active">{{ 'NAV-TITLE.ABOUT.ABOUT' | translate }}</a>
       </li>
       <li>
-        <a routerLink="#resume" routerLinkActive="active">Resumes</a>
+        <a routerLink="#resume" routerLinkActive="active">{{ 'NAV-TITLE.RESUME.RESUME' | translate }}</a>
       </li>
       <li>
-        <a routerLink="#skills" routerLinkActive="active">Skills</a>
+        <a routerLink="#skills" routerLinkActive="active">{{ 'NAV-TITLE.SKILLS.SKILLS' | translate }}</a>
       </li>
       <li>
-        <a routerLink="#about" routerLinkActive="active">Projects</a>
+        <a routerLink="#about" routerLinkActive="active">{{ 'NAV-TITLE.PROJECTS.PROJECTS' | translate }}</a>
       </li>
       <li>
-        <a routerLink="#resume" routerLinkActive="active">Contact</a>
+        <a routerLink="#resume" routerLinkActive="active">{{ 'NAV-TITLE.CONTACT.CONTACT' | translate }}</a>
       </li>
       <li>
         <button mat-button (change)="onChangeMode()">

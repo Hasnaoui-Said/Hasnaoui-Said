@@ -33,8 +33,16 @@ $said-hasnaoui-theme: mat.define-light-theme((
 // that you are using.
 @include mat.all-component-themes($said-hasnaoui-theme);
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+  background-color: #E2E2E2;
+}
 
 @import '~bootstrap/dist/css/bootstrap.css';
 @import '~font-awesome/css/font-awesome.css';

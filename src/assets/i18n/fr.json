@@ -1,13 +1,113 @@
 {
-  "info": {
+  "INFORMATION": {
     "fullName": "Said Hasnaoui",
-    "LastName": "Said",
-    "firstName": "Hasnaoui",
-    "address": "Azrou",
-    "email": "saidhasnaoui.uce@gmail.com",
-    "phone": "12345678",
-    "Age": "24",
-    "title": "Web Developper",
-    "text": "Description"
+    "title": "Développeur full stack, angular | spring Boot",
+    "Birthdate": "13/03/1998",
+    "Email": "saidhasnaoi.uce@gmail.com",
+    "Phone": "+ (212) 642-04-1066",
+    "Skype": "saidhasnaoi.uce",
+    "Address": "Sidi Addi Sidi El Makhfi, Azrou/53102"
+  },
+  "NAV-TITLE": {
+    "HOME": {
+      "HOME": "Accueil"
+    },
+    "ABOUT": {
+      "ABOUT": "A propos",
+      "WHO-I-M": "Who I am ?",
+      "Personal": "Informations personnelles",
+      "expertise": "Mon savoir-faire",
+      "post": "Développeur web et mobile",
+      "BTN": "Télecharger mon CV",
+      "desc": "Avec une grande capacité d’adaptation et de flexibilité, passionné par l'informatique et motivé au monde professionnel.",
+      "Birthdate": "Date de naissance:",
+      "Email": "Email:",
+      "Phone": "Télephone:",
+      "Skype": "Nom d'utilisateur:",
+      "Address": "Adresse",
+      "webDeveloper": "Développeur web",
+      "descWebDeveloper": "This card indeterminates progress bar web",
+      "mobileDeveloper": "Développeur mobile",
+      "descMobileDeveloper": "This card indeterminates progress bar mobile"
+    },
+    "RESUME": {
+      "RESUME": "Résumer",
+      "experience": "Experience",
+      "edu": "Education",
+      "present": {
+        "date": "September 2021 - Present",
+        "branch": "Apparent chez YouCode Maroc",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+      },
+      "licence": {
+        "date": "2020 - 2021",
+        "branch": "Aprprenant chez YouCode Maroc",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+      },
+      "Deust": {
+        "date": "2019 - 2020",
+        "branch": "Aprprenant chez YouCode Maroc",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+      },
+      "Bac": {
+        "date": "2017 - 2018",
+        "branch": "Aprprenant chez YouCode Maroc",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+      },
+      "stageSmart": {
+        "date": "Juillet 2022 - September 2022",
+        "branch": "Stagiaire En déveoppement web| Développeur de testeur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+      },
+      "stageIfrozet": {
+        "date": "Avril 2021 - Juin 2021",
+        "branch": "Stage - Développeur web",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+      }
+    },
+    "SKILLS": {
+      "SKILLS": "Compétences",
+      "springBoot": "Spring Boot",
+      "java2E": "Java2E",
+      "java": "Java",
+      "angular": "Angular",
+      "html": "html",
+      "css": "css",
+      "ts": "type Script",
+      "js": "Java Script",
+      "sql": "SQL",
+      "oracle": "Oracle",
+      "mongoDb": "MongoDb",
+      "autre": "...."
+    },
+    "CONTACT": {
+      "CONTACT": "Contact"
+    },
+    "PROJECTS": {
+      "PROJECTS": "Projets"
+    }
+  },
+  "HEROES": {
+    "TITLE": {
+      "BTN-PRINT": "Imprimer le résumer",
+      "hello": "Bonjour, je suis"
+    }
+  },
+  "languages": {
+    "en": {
+      "lang": "en",
+      "name": "English",
+      "flag": "./assets/images/media/flags/united-states.svg"
+    },
+    "fr": {
+      "lang": "fr",
+      "name": "French",
+      "flag": "./assets/images/media/flags/france.svg"
+    },
+    "ar": {
+      "lang": "ar",
+      "name": "Arabic",
+      "flag": "./assets/images/media/flags/saudi-arabia.svg"
+    }
   }
 }

@@ -7,7 +7,7 @@ import { SidenavListComponent } from './pages/sidenav-list/sidenav-list.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './pages/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
-import { HerosComponent } from './pages/heros/heros.component';
+import { HeroesComponent } from './pages/heroes/heroes.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatSelectModule} from "@angular/material/select";
@@ -17,10 +17,20 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormBuilder, FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import {MatButtonModule} from "@angular/material/button";
+import {MatCardModule} from "@angular/material/card";
+import { AboutComponent } from './pages/about/about.component';
+import { ResumeComponent } from './pages/resume/resume.component';
+import { SkillComponent } from './pages/skill/skill.component';
+import { ProjetComponent } from './pages/projet/projet.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { FooterComponent } from './pages/footer/footer.component';
+import {MatTableModule} from "@angular/material/table";
+import {MatInputModule} from '@angular/material/input';
+import {MatProgressBarModule} from "@angular/material/progress-bar";
 
 @NgModule({
   declarations: [
@@ -28,31 +38,44 @@ import {MatButtonModule} from "@angular/material/button";
     SidenavListComponent,
     HeaderComponent,
     HomeComponent,
-    HerosComponent
+    HeroesComponent,
+    AboutComponent,
+    ResumeComponent,
+    SkillComponent,
+    ProjetComponent,
+    ContactComponent,
+    FooterComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    ReactiveFormsModule,
-    FlexLayoutModule,
-    MatIconModule,
-    MatFormFieldModule,
-    MatSelectModule,
-    MatListModule,
-    MatToolbarModule,
-    MatSidenavModule,
-    HttpClientModule,
-    MatButtonModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory, deps: [HttpClient]
-      }
-    }),
-    NgbModule
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        ReactiveFormsModule,
+        FlexLayoutModule,
+        MatIconModule,
+        MatFormFieldModule,
+        MatSelectModule,
+        MatListModule,
+        MatToolbarModule,
+        MatSidenavModule,
+        HttpClientModule,
+        MatButtonModule,
+        MatInputModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory, deps: [HttpClient]
+            }
+        }),
+        NgbModule,
+        MatCardModule,
+        MatTableModule,
+        MatProgressBarModule,
+        ReactiveFormsModule,
+        FormsModule
+    ],
+  providers: [
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

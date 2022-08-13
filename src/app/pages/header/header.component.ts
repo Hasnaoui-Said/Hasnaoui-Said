@@ -13,17 +13,17 @@ const languages = [
   {
     lang: 'en',
     name: 'English',
-    flag: './assets/media/flags/united-states.svg'
+    flag: './assets/images/media/flags/united-states.svg'
   },
   {
     lang: 'fr',
     name: 'French',
-    flag: './assets/media/flags/france.svg'
+    flag: './assets/images/media/flags/france.svg'
   },
   {
     lang: 'ar',
     name: 'Arabic',
-    flag: './assets/media/flags/saudi-arabia.svg'
+    flag: './assets/images/media/flags/saudi-arabia.svg'
   }
 ];
 @Component({
