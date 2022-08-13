@@ -1,0 +1,48 @@
+<div>
+  <h1>Contact</h1>
+  <div class="content" fxLayout.lt-md="column"  fxLayoutAlign.gt-sm="center"  fxLayoutAlign.gt-md="center stretch" fxLayoutGap="20px">
+    <mat-card fxFlex.gt-sm="45.5">
+      <h2>Send a message</h2>
+      <form [formGroup]="messageGroup">
+        <mat-form-field appearance="outline">
+          <mat-label>Full name: </mat-label>
+          <input type="text" matInput formControlName="fullName"
+                 placeholder="your full name">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>email: </mat-label>
+          <input type="email" matInput formControlName="email"
+                 placeholder="Ex. pat@example.com">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>phone</mat-label>
+          <input type="text" matInput formControlName="phone"
+                 placeholder="your phone">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Message</mat-label>
+          <textarea type="text" matInput formControlName="comment"
+                    placeholder="Message...">
+          </textarea>
+        </mat-form-field>
+        <div fxLayoutAlign="end">
+          <button fxFlex.gt-md="50" mat-stroked-button color="primary" (click)="sendMessage()">Send Message</button>
+        </div>
+      </form>
+    </mat-card>
+
+    <mat-card fxFlex.gt-sm="35.5">
+      <h2>Send a message</h2>
+      <form>
+        <mat-form-field appearance="outline">
+          <mat-label>Outline form field</mat-label>
+          <input matInput placeholder="Placeholder">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </form>
+    </mat-card>
+  </div>
+</div>
