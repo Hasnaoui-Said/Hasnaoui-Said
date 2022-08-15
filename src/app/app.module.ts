@@ -31,6 +31,7 @@ import { FooterComponent } from './pages/footer/footer.component';
 import {MatTableModule} from "@angular/material/table";
 import {MatInputModule} from '@angular/material/input';
 import {MatProgressBarModule} from "@angular/material/progress-bar";
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
     SkillComponent,
     ProjetComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    NotFoundComponent
   ],
     imports: [
         BrowserModule,

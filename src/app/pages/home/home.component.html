@@ -1,30 +1,39 @@
-<mat-toolbar color="primary" class="justify-content-between">
-  <div class="" fxHide.gt-xs>
-    <button mat-icon-button>Menu</button>
-  </div>
-  <div class="">
-    <a class="text-decoration-none" href="/">Aouner-account</a>
-  </div>
-  <div class="d-flex justify-content-center align-content-center">
-    <ul class="d-flex justify-content-between align-content-center gap-4">
-      <li class="nav-link">
-        <a class="nav-item text-decoration-none" routerLink="/home" routerLinkActive="active">Home</a>
-      </li>
-      <li class="nav-link">
-        <a class="nav-item text-decoration-none" routerLink="/home" routerLinkActive="active">About</a>
-      </li>
-      <li class="nav-link">
-        <a class="nav-item text-decoration-none" routerLink="/home" routerLinkActive="active">Resume</a>
-      </li>
-      <li class="nav-link">
-        <a class="nav-item text-decoration-none" routerLink="/home" routerLinkActive="active">Skills</a>
-      </li>
-      <li class="nav-link">
-        <a class="nav-item text-decoration-none" routerLink="/home" routerLinkActive="active">Projects</a>
-      </li>
-      <li class="nav-link">
-        <a class="nav-item text-decoration-none" routerLink="/home" routerLinkActive="active">Contact</a>
-      </li>
-    </ul>
-  </div>
-</mat-toolbar>
+<div class="">
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav role="navigation">
+      <app-sidenav-list
+        (sidenavClose)="sidenav.close()"
+        (changeMode)="onChangeMode($event)"
+        (changeLang)="changeLang($event)"
+        [lang]="lang"
+        [mode]="mode"
+      >
+      </app-sidenav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <app-header
+        (sidenavToggle)="sidenav.toggle()"
+        (changeMode)="onChangeMode($event)"
+        (changeLang)="changeLang($event)"
+        [lang]="lang"
+        [mode]="mode"
+      >
+      </app-header>
+      <main class="mx-3 p-4" fxLayout="column" fxLayoutGap="30px">
+
+        <app-heroes></app-heroes>
+        <app-about></app-about>
+        <app-resume></app-resume>
+        <app-skill></app-skill>
+        <app-projet></app-projet>
+        <app-contact></app-contact>
+
+      </main>
+      <footer>
+        <mat-toolbar color="primary" fxLayout="column" fxLayoutAlign="center center">
+          <app-footer></app-footer>
+        </mat-toolbar>
+      </footer>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
