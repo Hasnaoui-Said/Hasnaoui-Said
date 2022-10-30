@@ -3,6 +3,22 @@
 
 - 🔭 I’m currently working on [PDA](https://github.com/Hasnaoui-Said/PoleDigitalAcademy)
 
+- 🌱 I’m currently learning **Angular/SpringBoot/JavaEE**
+
+- 👯 I’m looking to collaborate on **Freelance**
+
+- 🤝 I’m looking for help with **an opportunity in the labor market**
+
+- 👨‍💻 All of my projects are available at [null](null)
+
+- 💬 Ask me about **Angular/SpringBoot**
+
+- 📫 How to reach me **saidhasnaoui.uce@gmail.com**
+
+- 📄 Know about my experiences [Je suis un développeur Full stack, axé sur le développement d’applications Web (capable d'évoluer à la fois en front-end et back-end) puissantes, je suis passionné par la construction d’excellents logiciels qui améliorent la vie des gens autour de moi, et je suis quelqu’un qui Ambitieux, dynamique motivé, et aime le travail en équipe et qui s'adapte très vite au changement.](Je suis un développeur Full stack, axé sur le développement d’applications Web (capable d'évoluer à la fois en front-end et back-end) puissantes, je suis passionné par la construction d’excellents logiciels qui améliorent la vie des gens autour de moi, et je suis quelqu’un qui Ambitieux, dynamique motivé, et aime le travail en équipe et qui s'adapte très vite au changement.)
+
+- ⚡ Fun fact **I'm currently taking English courses because I hope to visit USA in the coming years.**
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/hasnaouii_said" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="hasnaouii_said" height="30" width="40" /></a>
