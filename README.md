@@ -1,3 +1,4 @@
+<img align="right" alt="Coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw5B31t2Jb2zbnTVHuS4Hm_mYdqX67B3G3_Q&usqp=CAU">
 <h1 align="center">Hi 👋, I'm Hasnaoui Said</h1>
 <h3 align="center">A passionate frontend and backend developer from marocco</h3>
 
