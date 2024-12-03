@@ -24,7 +24,9 @@
 
 - 📫 How to reach me **saidhasnaoui.uce@gmail.com**
 
-- 📄 Know about my experiences [Je suis un développeur Full stack, axé sur le développement d’applications Web (capable d'évoluer à la fois en front-end et back-end) puissantes, je suis passionné par la construction d’excellents logiciels qui améliorent la vie des gens autour de moi, et je suis quelqu’un qui Ambitieux, dynamique motivé, et aime le travail en équipe et qui s'adapte très vite au changement.](Je suis un développeur Full stack, axé sur le développement d’applications Web (capable d'évoluer à la fois en front-end et back-end) puissantes, je suis passionné par la construction d’excellents logiciels qui améliorent la vie des gens autour de moi, et je suis quelqu’un qui Ambitieux, dynamique motivé, et aime le travail en équipe et qui s'adapte très vite au changement.)
+- 📄 Know about my experiences: 
+[I am a Full Stack Developer focused on building powerful web applications (skilled in both front-end and back-end development). I am passionate about creating excellent software that enhances people's lives. I am ambitious, dynamic, and motivated, with a strong affinity for teamwork. I adapt quickly to change and thrive in collaborative environments.]
+(Je suis un développeur Full stack, axé sur le développement d’applications Web (capable d'évoluer à la fois en front-end et back-end) puissantes, je suis passionné par la construction d’excellents logiciels qui améliorent la vie des gens autour de moi, et je suis quelqu’un qui Ambitieux, dynamique motivé, et aime le travail en équipe et qui s'adapte très vite au changement.)
 
 - ⚡ Fun fact **I'm currently taking English courses because I hope to visit USA in the coming years.**
 
